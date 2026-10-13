@@ -1,0 +1,17 @@
+Test Execution Report
+Suite: Regression Suite
+Started: 2026-10-14 01:28:00
+
+[PASS] LoginTest.testInvalidLogin (406 ms)
+[FAIL] LoginTest.testMicrosoftLogin (26573 ms)
+  Details: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='pageDescription']"}
+  (Session info: chrome=155.0.8059.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dd8ad2f73f9353bb4686ad5fa3e5e6e, findElement {using=xpath, value=//p[@id='pageDescription']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\svive\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56652}, goog:processID: 19696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56652/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dd8ad2f73f9353bb4686ad5fa3e5e6e
+
+Finished: 2026-10-14 01:28:30
